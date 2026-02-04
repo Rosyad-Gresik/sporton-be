@@ -1,0 +1,46 @@
+# =====================
+# Dependencies
+# =====================
+node_modules/
+.pnpm-store/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Build output
+# =====================
+dist/
+build/
+
+# =====================
+# Logs
+# =====================
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =====================
+# Runtime data
+# =====================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.vscode/
+.idea/
+
+# =====================
+# Coverage / cache
+# =====================
+coverage/
+.cache/
